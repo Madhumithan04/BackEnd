@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(cors())
 const PORT = 3333;
 
-mongoose.connect("mongodb+srv://madhumithan556_db_user:<db_password>@cluster0.np3oqiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://madhumithan556_db_user:Mkss2417@cluster0.edsifgj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>{
     console.log("Connected to MongoDB");
 })
